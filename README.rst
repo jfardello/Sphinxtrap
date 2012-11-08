@@ -3,16 +3,17 @@ Sphinxtrap
 
     | "Yet another bootstrapped sphinx theme."
 
-Sphinxtrap is a minimalist bootstrap-based `sphinx<http://sphinx-doc.org/>`_ theme,
-You can see an example `here<http://jfardello.github.com/Dardrive/>`_.
+Sphinxtrap is a minimalist bootstrap-based `sphinx <http://sphinx-doc.org/>`_ theme,
+You can see an example `here <http://jfardello.github.com/Dardrive/>`_.
 
-Install:
+Install
+-------
 
     easy_install sphinxtrap
 
 Usage:
-
-    Add to sphinx's conf.py:
+------
+Add to sphinx's conf.py::
 
     import sphinxtrap as st
 
