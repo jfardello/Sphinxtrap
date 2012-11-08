@@ -1,0 +1,7 @@
+News
+====
+
+0.1a
+-----
+
+* Initial GH import! (http://github.com/jfardello/sphinxtrap)

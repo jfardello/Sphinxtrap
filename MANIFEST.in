@@ -1,0 +1,3 @@
+recursive-include sphinxtrap/themes *
+include LICENSE.txt NEWS.txt README.rst
+exclude .gitignore 
