@@ -38,9 +38,9 @@
         <div class="container">
             <a class="brand" href="{{ pathto(master_doc) }}"><img
             {%- if not logo %}
-                src="_static/img/logo.png" 
+                src="{{ pathto('_static/img/logo.png', 1) }}" 
             {%- else %}
-                src="_static/{{logo}}" 
+                src="{{pathto('_static/' + logo, 1)}}" 
             {%- endif %}
             alt="home">{{project}}</a>
             <ul class="nav">
@@ -49,7 +49,7 @@
                 {%- endfor %}
       
                 <li class="dropdown">
-                    <a href="{{ pathto(master_doc) }}" class="dropdown-toggle"
+                    <a href="#" class="dropdown-toggle"
                         data-toggle="dropdown">Documentation <b class="caret"></b></a>
                     <ul class="dropdown-menu globaltoc" id="gtocmenu">{{ toctree(maxdepth=1) }}</ul>
                 </li>
@@ -69,7 +69,7 @@
                       <li class="divider-vertical"></li>
                       <li>
                          <form class="navbar-search pull-left"
-                             action="search.html" method="GET">
+                             action="{{ pathto('search')}}" method="GET">
                             <input type="text" name="q" class="search-query span2" placeholder="Search">
                         </form>
                       </li>

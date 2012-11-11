@@ -1,7 +1,7 @@
 import os
 
 __version__ = "0.1"
-__release__ = __version__ + "a" 
+__release__ = __version__ + "b" 
 
 _root_dir = os.path.abspath(os.path.dirname(__file__))
 
