@@ -1,7 +1,17 @@
 News
 ====
 
-0.1a
+0.2.1
 -----
 
+* Python 3 support
+* Fontawesome
+* Custom roles for buttons and FA icons
+* Full navigation
+* Bootstrap3 support
+
+0.1a
+----
+
 * Initial GH import! (http://github.com/jfardello/sphinxtrap)
+

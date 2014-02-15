@@ -1,2 +1,10 @@
 
 TODO
+====
+
+The toctree directive should be optional, on those cases, the nabvar should be disabled or empty, (just local??)
+
+Upload the wfc stuff and use it as an example.
+
+
+
