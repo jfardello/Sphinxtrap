@@ -1,0 +1,17 @@
+/*A greeny theme*/
+
+body{ background-color: #EBEBD1; }
+pre { background-color: #CDE2B7;}
+
+.hero-unit { background-color: #75964A; }
+
+.hero-unit h2 { text-shadow: 2px 2px rgba(0, 0, 0, 0.27); }
+
+
+.highlight { background: #DAD6E9; }
+
+.navbar-inner {
+    background-color: #F2F3DF;
+    background-image : none;
+    border: 1px solid #FFFFFF;
+}
