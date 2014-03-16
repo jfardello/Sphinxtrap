@@ -24,7 +24,7 @@ setup(
     description = "Yet another bootstrap sphinx theme.",
     long_description="""\
 Small package containing a Sphinx theme named "sphinxtrap",
-You can see an example at `<//http://jfardello.github.com/Dardrive/>`_.
+You can see an example at `<http://jfardello.github.com/Sphinxtrap/>`_.
     """,
     license = "MIT",
     keywords = "sphinx extension theme",

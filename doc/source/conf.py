@@ -99,7 +99,7 @@ pygments_style = 'sphinx'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {'css_files': ["custom.css"]}
+html_theme_options = {'globe_external_links': True}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []

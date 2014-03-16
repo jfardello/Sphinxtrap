@@ -34,13 +34,16 @@
     {% set navb_classes = "navbar navbar-fixed-top" %}
 {% endif %} 
 
-{% if theme_new_page_external_links != "false" %}
 <script type="text/javascript">
+{% if theme_new_page_external_links != "false" %}
 //<![CDATA[
     window.new_page = 1
+{% endif %} 
+{% if theme_globe_external_links != "false" %}
+    window.icon_globe = 1
+{% endif %} 
 //]]>
 </script>
-{% endif %} 
 
 <div class="{{ navb_classes }}">
     <div class="navbar-inner">
@@ -165,7 +168,6 @@ rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ pathto('_static/bootstrap-responsive.min.css', 1) }}" type="text/css" />
     {%- for cssfile in theme_css_files %}
     <link rel="stylesheet" href="{{ pathto('_static/' + cssfile, 1) }}" type="text/css" />
-
     {%- endfor %}
 {%- endmacro %}
 

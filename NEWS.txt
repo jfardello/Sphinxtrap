@@ -1,6 +1,12 @@
 News
 ====
 
+0.2.3
+-----
+
+* globe_external_links option
+* fix custom css bug
+
 0.2.1
 -----
 
