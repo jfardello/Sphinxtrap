@@ -25,16 +25,18 @@ like this:
 Optional settings 
 .................
 
-The following html_theme_options keys in ``conf.py`` are allowed:
+The following `html_theme_options <http://sphinx-doc.org/theming.html#using-a-theme>`_ keys in ``conf.py`` are allowed:
 
 analytics:
     Adds `GA code <https://developers.google.com/analytics/devguides/collection/gajs/methods/>`_  if it is present (or not None)
-inverse:
+blackbar:
     Adds the nabvar-inverse bootstrap class to the navbar.
 new_page_external_links:
     Defaults to true, makes the theme to open external links in a new window.
 css_files:
     A list with custom css styles, that will be loaded from the ``static_path`` defined in ``conf.py``.
+globe_external_links:
+    Appends a globe icon to the external links text.
 
 .. note::
 

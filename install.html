@@ -15,8 +15,6 @@ rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="_static/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/bootstrap-responsive.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/[" type="text/css" />
-    <link rel="stylesheet" href="_static/]" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -50,13 +48,16 @@ rel='stylesheet' type='text/css'>
     
  
 
-
 <script type="text/javascript">
+
 //<![CDATA[
     window.new_page = 1
+ 
+
+    window.icon_globe = 1
+ 
 //]]>
 </script>
- 
 
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
@@ -143,16 +144,18 @@ like this:</p>
 </div>
 <div class="section" id="optional-settings">
 <span id="theme-options"></span><h2>Optional settings<a class="headerlink" href="#optional-settings" title="Permalink to this headline">¶</a></h2>
-<p>The following html_theme_options keys in <tt class="docutils literal"><span class="pre">conf.py</span></tt> are allowed:</p>
+<p>The following <a class="reference external" href="http://sphinx-doc.org/theming.html#using-a-theme">html_theme_options</a> keys in <tt class="docutils literal"><span class="pre">conf.py</span></tt> are allowed:</p>
 <dl class="docutils">
 <dt>analytics:</dt>
 <dd>Adds <a class="reference external" href="https://developers.google.com/analytics/devguides/collection/gajs/methods/">GA code</a>  if it is present (or not None)</dd>
-<dt>inverse:</dt>
+<dt>blackbar:</dt>
 <dd>Adds the nabvar-inverse bootstrap class to the navbar.</dd>
 <dt>new_page_external_links:</dt>
 <dd>Defaults to true, makes the theme to open external links in a new window.</dd>
 <dt>css_files:</dt>
 <dd>A list with custom css styles, that will be loaded from the <tt class="docutils literal"><span class="pre">static_path</span></tt> defined in <tt class="docutils literal"><span class="pre">conf.py</span></tt>.</dd>
+<dt>globe_external_links:</dt>
+<dd>Appends a globe icon to the external links text.</dd>
 </dl>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>

@@ -48,6 +48,15 @@ $(document).ready(function(){
             });
         });
     };
+
+    //Add the globe icon to non button links
+    if (typeof  window.icon_globe != 'undefined'){
+        $('a.reference.external:not(.btn)').each(function(){
+            $(this).append(' <i class="icon-globe icon-holder"></i>');
+        });
+    };
+    
+    
     //If the document was loaded as doc#section scroll offsetHeight + section's
     //offsetTop.
     if ($(location).attr('href').indexOf('#') !== -1) {
