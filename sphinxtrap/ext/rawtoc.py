@@ -115,17 +115,17 @@ def html_page_context(app, pagename, templatename, context, doctree):
                                  collapse=collapse)
 
     def raw_localtoc(collapse=False):
-        self_toc = app.builder.env.get_toc_for(pagename, app.builder)
-        toc = app.builder.render_partial(self_toc)['fragment']
-        pl = ParseLinks()
-        pl.feed(toc)
         try:
+            self_toc = app.builder.env.get_toc_for(pagename, app.builder)
+            toc = app.builder.render_partial(self_toc)['fragment']
+            pl = ParseLinks()
+            pl.feed(toc)
             index = pl.links[0]
             childs = list(index['childs'])
             index['childs'] = []
             childs.insert(0, index)
             return childs
-        except IndexError:
+        except (IndexError, KeyError):
             return []
 
     context['raw_toctree'] = raw_toctree
